@@ -1,0 +1,603 @@
+{
+    "city": "Salatiga",
+    "menu": [
+        {
+            "id": 1,
+            "name": "Home",
+            "href": "/"
+        },
+        {
+            "id": 2,
+            "name": "Sejarah",
+            "href": "/history"
+        },
+        {
+            "id": 3,
+            "name": "Wisata",
+            "href": "/attraction"
+        },
+        {
+            "id": 4,
+            "name": "Event",
+            "href": "/event"
+        },
+        {
+            "id": 5,
+            "name": "Akomodasi",
+            "href": "/acomodation"
+        },
+        {
+            "id": 6,
+            "name": "Rencana Perjalanan",
+            "href": "/itenary"
+        }
+    ],
+    "footerMenu": [
+        {
+            "id": 1,
+            "name": "Pemerintah Kota Salatiga",
+            "href": "#"
+        },
+        {
+            "id": 2,
+            "name": "Dinas Pariwisata Kota Salatiga",
+            "href": "#"
+        },
+        {
+            "id": 3,
+            "name": "Pemerintah Kota Salatiga",
+            "href": "#"
+        }
+    ],
+    "footerLink": [
+        {
+            "id": 1,
+            "name": "Credits",
+            "href": "/credit"
+        },
+        {
+            "id": 2,
+            "name": "Privacy Policy",
+            "href": "/privacy-policy"
+        },
+        {
+            "id": 3,
+            "name": "Term of Use",
+            "href": "/term"
+        }
+    ],
+    "districts": [
+        {
+            "name": "Sidorejo",
+            "coords": [
+                -7.3077,
+                110.4980
+            ],
+            "desc": "Kecamatan dengan pusat pendidikan dan area perkotaan."
+        },
+        {
+            "name": "Sidomukti",
+            "coords": [
+                -7.3256,
+                110.5100
+            ],
+            "desc": "Wilayah strategis dengan pusat pemerintahan dan bisnis."
+        },
+        {
+            "name": "Tingkir",
+            "coords": [
+                -7.3390,
+                110.4920
+            ],
+            "desc": "Kawasan transportasi dan jalur utama Salatiga."
+        },
+        {
+            "name": "Argomulyo",
+            "coords": [
+                -7.3577,
+                110.5155
+            ],
+            "desc": "Area hijau dengan suasana alam yang sejuk dan nyaman."
+        }
+    ],
+    "events": [
+        {
+            "title": "Kirab HUT Salatiga",
+            "category": "Budaya",
+            "date": "2026-07-24",
+            "location": "Sidorejo, Salatiga",
+            "image": "https://tourism.salatiga.go.id/storage/posts/kirab.jpg",
+            "description": "Perayaan budaya tahunan Hari Jadi Kota Salatiga dengan parade budaya dan seni tradisional.",
+            "url": "https://tourism.salatiga.go.id/artikel/wisata/budaya/kirab-hut-salatiga"
+        },
+        {
+            "title": "Festival Budaya Salatiga",
+            "category": "Festival",
+            "date": "2026-06-21",
+            "location": "Sidomukti, Salatiga",
+            "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=1200&auto=format&fit=crop",
+            "description": "Festival budaya dan pertunjukan seni lokal khas Salatiga.",
+            "url": "https://tourism.salatiga.go.id/event"
+        },
+        {
+            "title": "Salatiga Tempo Doeloe",
+            "category": "Budaya",
+            "date": "2026-08-01",
+            "location": "Perpustakaan Daerah Salatiga",
+            "image": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?q=80&w=1200&auto=format&fit=crop",
+            "description": "Event bernuansa heritage dan sejarah Kota Salatiga.",
+            "url": "https://tourism.salatiga.go.id/event"
+        }
+    ],
+    "attraction": {
+        "wisata": [
+            {
+                "id": 1,
+                "slug": "sitalang-salatiga",
+                "name": "Sitalang Salatiga",
+                "marker": "wisata",
+                "detail": {
+                    "alamat": "Jl. Sawah, Kauman Kidul, Sidorejo, Salatiga",
+                    "kategori": "Wisata Alam",
+                    "koordinat": {
+                        "lat": -7.3228,
+                        "lng": 110.4908
+                    },
+                    "jam_operasional": "07:00 - 18:00",
+                    "harga": "Rp 5.000",
+                    "deskripsi": "Agrowisata dengan jogging track persawahan, river tubing, pasar tiban UMKM dan panorama pegunungan.",
+                    "credit": "tourism.salatiga.go.id",
+                    "img": [
+                        {
+                            "title": "sitalang-1.webp"
+                        },
+                        {
+                            "title": "sitalang-2.webp"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 2,
+                "slug": "rawa-pening",
+                "name": "Rawa Pening",
+                "marker": "wisata",
+                "detail": {
+                    "alamat": "Banyubiru, Kabupaten Semarang",
+                    "kategori": "Wisata Alam",
+                    "koordinat": {
+                        "lat": -7.2668,
+                        "lng": 110.4314
+                    },
+                    "jam_operasional": "24 Jam",
+                    "harga": "Rp 10.000",
+                    "deskripsi": "Danau alami terbesar di kawasan Salatiga-Ambarawa dengan wisata perahu dan kuliner terapung.",
+                    "credit": "Disbudpar",
+                    "img": [
+                        {
+                            "title": "rawa-pening-1.webp"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 3,
+                "slug": "bukit-cinta",
+                "name": "Bukit Cinta",
+                "marker": "wisata",
+                "detail": {
+                    "alamat": "Kebondowo, Banyubiru",
+                    "kategori": "Wisata Alam",
+                    "koordinat": {
+                        "lat": -7.2672,
+                        "lng": 110.4275
+                    },
+                    "jam_operasional": "08:00 - 17:00",
+                    "harga": "Rp 15.000",
+                    "deskripsi": "Spot panorama terbaik untuk menikmati pemandangan Rawa Pening.",
+                    "credit": "Disbudpar",
+                    "img": [
+                        {
+                            "title": "bukit-cinta-1.webp"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 4,
+                "slug": "kopeng",
+                "name": "Wisata Kopeng",
+                "marker": "wisata",
+                "detail": {
+                    "alamat": "Kopeng, Getasan",
+                    "kategori": "Wisata Alam",
+                    "koordinat": {
+                        "lat": -7.4038,
+                        "lng": 110.4387
+                    },
+                    "jam_operasional": "24 Jam",
+                    "harga": "Gratis",
+                    "deskripsi": "Kawasan wisata pegunungan di kaki Merbabu dengan udara sejuk dan camping ground.",
+                    "credit": "Disbudpar",
+                    "img": [
+                        {
+                            "title": "kopeng-1.webp"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 5,
+                "slug": "prasasti-plumpungan",
+                "name": "Prasasti Plumpungan",
+                "marker": "wisata",
+                "detail": {
+                    "alamat": "Plumpungan, Sidorejo",
+                    "kategori": "Wisata Budaya",
+                    "koordinat": {
+                        "lat": -7.3284,
+                        "lng": 110.5047
+                    },
+                    "jam_operasional": "08:00 - 16:00",
+                    "harga": "Gratis",
+                    "deskripsi": "Situs bersejarah yang menjadi bukti asal-usul nama Salatiga.",
+                    "credit": "Disbudpar",
+                    "img": [
+                        {
+                            "title": "plumpungan-1.webp"
+                        }
+                    ]
+                }
+            }
+        ],
+        "kuliner": [
+            {
+                "id": 101,
+                "slug": "anak-panah-kopi",
+                "name": "Anak Panah Kopi",
+                "marker": "kuliner",
+                "detail": {
+                    "alamat": "Jl. Cemara II, Sidorejo, Salatiga",
+                    "kategori": "Cafe",
+                    "koordinat": {
+                        "lat": -7.3309,
+                        "lng": 110.5067
+                    },
+                    "jam_operasional": "24 Jam",
+                    "harga": "Rp 25.000 - Rp 50.000",
+                    "deskripsi": "Coffee shop populer dengan konsep modern minimalis dan area kerja nyaman.",
+                    "credit": "tourism.salatiga.go.id",
+                    "img": [
+                        {
+                            "title": "anak-panah-1.webp"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 102,
+                "slug": "kalatiga",
+                "name": "Kalatiga",
+                "marker": "kuliner",
+                "detail": {
+                    "alamat": "Jl. Diponegoro, Salatiga",
+                    "kategori": "Cafe",
+                    "koordinat": {
+                        "lat": -7.3285,
+                        "lng": 110.5052
+                    },
+                    "jam_operasional": "24 Jam",
+                    "harga": "Rp 20.000 - Rp 60.000",
+                    "deskripsi": "Cafe favorit mahasiswa dengan suasana santai.",
+                    "credit": "Disbudpar",
+                    "img": [
+                        {
+                            "title": "kalatiga-1.webp"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 103,
+                "slug": "soto-esto",
+                "name": "Soto Esto",
+                "marker": "kuliner",
+                "detail": {
+                    "alamat": "Jl. Langensuko, Salatiga",
+                    "kategori": "Heritage",
+                    "koordinat": {
+                        "lat": -7.3272,
+                        "lng": 110.5039
+                    },
+                    "jam_operasional": "06:00 - 15:00",
+                    "harga": "Rp 20.000",
+                    "deskripsi": "Soto ayam legendaris khas Salatiga.",
+                    "credit": "Disbudpar",
+                    "img": [
+                        {
+                            "title": "soto-esto-1.webp"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 104,
+                "slug": "ronde-jago",
+                "name": "Ronde Jago",
+                "marker": "kuliner",
+                "detail": {
+                    "alamat": "Jl. Jend. Sudirman, Salatiga",
+                    "kategori": "Heritage",
+                    "koordinat": {
+                        "lat": -7.3294,
+                        "lng": 110.5026
+                    },
+                    "jam_operasional": "18:00 - 00:00",
+                    "harga": "Rp 15.000",
+                    "deskripsi": "Wedang ronde legendaris sejak puluhan tahun.",
+                    "credit": "Disbudpar",
+                    "img": [
+                        {
+                            "title": "ronde-jago-1.webp"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 105,
+                "slug": "yege-resto",
+                "name": "Yege Resto",
+                "marker": "kuliner",
+                "detail": {
+                    "alamat": "Salatiga",
+                    "kategori": "Restoran",
+                    "koordinat": {
+                        "lat": -7.3312,
+                        "lng": 110.5078
+                    },
+                    "jam_operasional": "10:00 - 22:00",
+                    "harga": "Rp 50.000 - Rp 150.000",
+                    "deskripsi": "Restoran keluarga dengan menu nusantara dan internasional.",
+                    "credit": "Disbudpar",
+                    "img": [
+                        {
+                            "title": "yege-resto-1.webp"
+                        }
+                    ]
+                }
+            }
+        ],
+        "akomodasi": [
+            {
+                "id": 201,
+                "slug": "grand-wahid-hotel",
+                "name": "Grand Wahid Hotel",
+                "marker": "hotel",
+                "detail": {
+                    "alamat": "Jl. Jend. Sudirman No.2, Sidorejo, Salatiga",
+                    "kategori": "Hotel",
+                    "koordinat": {
+                        "lat": -7.3298,
+                        "lng": 110.5051
+                    },
+                    "jam_operasional": "24 Jam",
+                    "harga": "Mulai Rp 600.000",
+                    "deskripsi": "Hotel bintang dengan fasilitas kolam renang, restoran, spa dan meeting room.",
+                    "credit": "tourism.salatiga.go.id",
+                    "img": [
+                        {
+                            "title": "grand-wahid-1.webp"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 202,
+                "slug": "gosyen-azana",
+                "name": "Gosyen Azana Hotel",
+                "marker": "hotel",
+                "detail": {
+                    "alamat": "Salatiga Plaza",
+                    "kategori": "Hotel",
+                    "koordinat": {
+                        "lat": -7.3278,
+                        "lng": 110.5034
+                    },
+                    "jam_operasional": "24 Jam",
+                    "harga": "Mulai Rp 500.000",
+                    "deskripsi": "Hotel modern di pusat kota Salatiga.",
+                    "credit": "Disbudpar",
+                    "img": [
+                        {
+                            "title": "gosyen-1.webp"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 203,
+                "slug": "tetirah-boutique",
+                "name": "Tetirah Boutique Hotel",
+                "marker": "hotel",
+                "detail": {
+                    "alamat": "Kalicacing, Salatiga",
+                    "kategori": "Hotel",
+                    "koordinat": {
+                        "lat": -7.3215,
+                        "lng": 110.4982
+                    },
+                    "jam_operasional": "24 Jam",
+                    "harga": "Mulai Rp 450.000",
+                    "deskripsi": "Hotel dengan nuansa heritage dan taman asri.",
+                    "credit": "Disbudpar",
+                    "img": [
+                        {
+                            "title": "tetirah-1.webp"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 204,
+                "slug": "guest-house-gethsemane",
+                "name": "Guest House Gethsemane",
+                "marker": "guesthouse",
+                "detail": {
+                    "alamat": "Blotongan, Sidorejo",
+                    "kategori": "Guest House",
+                    "koordinat": {
+                        "lat": -7.3064,
+                        "lng": 110.4924
+                    },
+                    "jam_operasional": "24 Jam",
+                    "harga": "Mulai Rp 250.000",
+                    "deskripsi": "Guest house nyaman untuk keluarga dan perjalanan bisnis.",
+                    "credit": "tourism.salatiga.go.id",
+                    "img": [
+                        {
+                            "title": "gethsemane-1.webp"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 205,
+                "slug": "diponegoro-house",
+                "name": "Diponegoro House",
+                "marker": "hotel",
+                "detail": {
+                    "alamat": "Jl. Diponegoro, Salatiga",
+                    "kategori": "Boutique Hotel",
+                    "koordinat": {
+                        "lat": -7.3291,
+                        "lng": 110.5048
+                    },
+                    "jam_operasional": "24 Jam",
+                    "harga": "Mulai Rp 350.000",
+                    "deskripsi": "Penginapan heritage dengan nuansa kolonial.",
+                    "credit": "tourism.salatiga.go.id",
+                    "img": [
+                        {
+                            "title": "diponegoro-house-1.webp"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "history": [
+        {
+            "id": 1,
+            "year": "750 M",
+            "title": "Prasasti Plumpungan",
+            "img": "history-1",
+            "desc": "Tonggak sejarah Kota Salatiga bermula dari Prasasti Plumpungan yang bertanggal 24 Juli 750 Masehi. Dalam prasasti tersebut disebutkan wilayah \"Hampra\" yang kemudian dipercaya sebagai asal mula nama Salatiga. Tanggal ini kini diperingati sebagai Hari Jadi Kota Salatiga."
+        },
+        {
+            "id": 2,
+            "year": "Abad XV–XVII",
+            "title": "Pusat Persinggahan PerdaganganPrasasti Plumpungan",
+            "img": "history-2",
+            "desc": "Letaknya yang strategis di antara Semarang, Solo, dan Yogyakarta menjadikan Salatiga sebagai jalur penting perdagangan dan mobilitas masyarakat Jawa. Kawasan ini berkembang sebagai daerah persinggahan yang ramai dan multikultural."
+        },
+        {
+            "id": 3,
+            "year": "1746",
+            "title": "Perjanjian Salatiga",
+            "img": "history-3",
+            "desc": "Salatiga menjadi saksi sejarah Perjanjian Salatiga yang melibatkan VOC dan Kerajaan Mataram. Peristiwa ini menjadi bagian penting dalam pembentukan peta politik Jawa pada masa kolonial."
+        },
+        {
+            "id": 4,
+            "year": "1917",
+            "title": "Kota Gemeente Hindia Belanda",
+            "img": "history-4",
+            "desc": "Pemerintah Hindia Belanda menetapkan Salatiga sebagai Gemeente atau kota otonom. Pada masa ini dibangun berbagai fasilitas publik, kawasan permukiman Eropa, sekolah, dan infrastruktur yang membentuk karakter kota hingga saat ini."
+        },
+        {
+            "id": 5,
+            "year": "1950–Sekarang",
+            "title": "Kota Pendidikan dan Wisata",
+            "img": "history-5",
+            "desc": "Setelah kemerdekaan Indonesia, Salatiga berkembang sebagai kota pendidikan, perdagangan, dan pariwisata. Keberadaan berbagai institusi pendidikan serta lingkungan alam yang sejuk menjadikan Salatiga dikenal sebagai salah satu kota ternyaman di Indonesia."
+        }
+    ],
+    "terms": [
+        {
+            "title": "Penerimaan Ketentuan",
+            "desc": "Dengan mengakses dan menggunakan website Explore Salatiga, Anda dianggap telah menyetujui seluruh syarat dan ketentuan yang berlaku."
+        },
+        {
+            "title": "Tujuan Website",
+            "desc": "Website ini dibuat sebagai media informasi mengenai sejarah, budaya, destinasi wisata, kuliner, dan informasi publik terkait Kota Salatiga."
+        },
+        {
+            "title": "Hak Kekayaan Intelektual",
+            "desc": "Seluruh konten pada website ini, termasuk teks, desain, logo, ilustrasi, dan elemen visual lainnya, dilindungi oleh hukum yang berlaku."
+        },
+        {
+            "title": "Penggunaan Konten",
+            "desc": "Pengguna diperbolehkan membagikan informasi dari website ini untuk tujuan edukasi dan non-komersial dengan tetap mencantumkan sumber."
+        },
+        {
+            "title": "Larangan",
+            "desc": "<li>Menggunakan website untuk tujuan ilegal.</li><li>Menyalin konten secara massal tanpa izin.</li> <li>Mengganggu keamanan dan operasional website.</li><li>Menyebarkan informasi yang menyesatkan.</li>"
+        },
+        {
+            "title": "Akurasi Informasi",
+            "desc": "Kami berusaha menyajikan informasi yang akurat dan terkini, namun tidak menjamin seluruh informasi selalu bebas dari kesalahan atau perubahan."
+        },
+        {
+            "title": "Tautan ke Situs Lain",
+            "desc": "Website ini dapat memuat tautan ke situs eksternal. Kami tidak bertanggung jawab atas kebijakan privasi situs tersebut."
+        },
+        {
+            "title": "Batasan Tanggung Jawab",
+            "desc": "Explore Salatiga tidak bertanggung jawab atas kerugian yang timbul akibat penggunaan informasi yang terdapat pada website ini."
+        },
+        {
+            "title": "Perubahan Ketentuan",
+            "desc": "Ketentuan penggunaan dapat diperbarui sewaktu-waktu tanpa pemberitahuan sebelumnya."
+        },
+        {
+            "title": "Hukum yang Berlaku",
+            "desc": "Ketentuan ini tunduk pada hukum dan peraturan yang berlaku di Republik Indonesia."
+        }
+    ],
+    "policy": [
+        {
+            "title": "",
+            "desc": ""
+        },
+        {
+            "title": "",
+            "desc": ""
+        },
+        {
+            "title": "",
+            "desc": ""
+        },
+        {
+            "title": "",
+            "desc": ""
+        },
+        {
+            "title": "",
+            "desc": ""
+        },
+        {
+            "title": "",
+            "desc": ""
+        },
+        {
+            "title": "",
+            "desc": ""
+        }
+    ],
+    "credit": [
+        {
+            "title": "",
+            "desc": ""
+        }
+    ]
+}

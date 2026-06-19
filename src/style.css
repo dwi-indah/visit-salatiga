@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #2D4636;
+    --color-primary-light: #B1CDB8;
+    --color-primary-accent: #DBF8E1;
+    --color-secondary: #A67B5B;
+    --color-tertiary: #E8E2D6;
+    --color-neutral: #1A1A1A;
+    --color-neutral-light: #F7F6F2;
+    --font-display: 'Syne', sans-serif;
+    --font-body: 'Plus Jakarta Sans', sans-serif;
+}
+
+.introGallery {
+    will-change: transform, opacity;
+}
