@@ -1,9 +1,3 @@
-/**
- * Card — reusable attraction card.
- *
- * Props:
- *   item  {object}  — a single entry from attraction.wisata | kuliner | akomodasi
- */
 export default function Card({ item }) {
     if (!item) return null
 
@@ -11,7 +5,7 @@ export default function Card({ item }) {
     const { alamat, kategori, jam_operasional, harga, deskripsi } = detail
 
     return (
-        <article className="flex flex-col gap-2 rounded-xl bg-white p-4 shadow-sm transition hover:shadow-md">
+        <div className="flex flex-col gap-2 rounded-xl bg-white p-4 shadow-sm transition hover:shadow-md">
             {/* Category badge */}
             <span className="w-fit rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-medium text-emerald-700 capitalize">
                 {marker}
@@ -45,6 +39,6 @@ export default function Card({ item }) {
                     <dd>{harga}</dd>
                 </div>
             </dl>
-        </article>
+        </div>
     )
 }
