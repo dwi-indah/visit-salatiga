@@ -34,6 +34,22 @@ export const getFooterLink = async () => {
     const data = await getSiteData();
     return data?.footerLink || '';
 };
+export const getTrivia = async () => {
+    const data = await getSiteData();
+    return data?.trivia || '';
+};
+export const getCredit = async () => {
+    const data = await getSiteData();
+    return data?.credit || '';
+};
+export const getPrivacy = async () => {
+    const data = await getSiteData();
+    return data?.privacy || '';
+};
+export const getTerm = async () => {
+    const data = await getSiteData();
+    return data?.terms || '';
+};
 
 /**
  * getTitleHeading — look up a titleHeading entry by id.

@@ -112,7 +112,7 @@
         {
             "id": 8,
             "title": "Credit",
-            "tag": "Legal",
+            "tag": "Behind The Project",
             "note": "Terakhir diupdate : Juni 2026"
         }
     ],
@@ -152,6 +152,8 @@
     ],
     "events": [
         {
+            "id": 1,
+            "slug": "kirab-hut-salatiga",
             "title": "Kirab HUT Salatiga",
             "category": "Budaya",
             "date": "2026-07-24",
@@ -160,7 +162,9 @@
             "description": "Perayaan budaya tahunan Hari Jadi Kota Salatiga dengan parade budaya dan seni tradisional.",
             "url": "https://tourism.salatiga.go.id/artikel/wisata/budaya/kirab-hut-salatiga"
         },
-        {
+        {   
+            "id": 2,
+            "slug": "festival-budaya-salatiga",
             "title": "Festival Budaya Salatiga",
             "category": "Festival",
             "date": "2026-06-21",
@@ -169,7 +173,9 @@
             "description": "Festival budaya dan pertunjukan seni lokal khas Salatiga.",
             "url": "https://tourism.salatiga.go.id/event"
         },
-        {
+        {   
+            "id": 3,
+            "slug": "salatiga-tempo-doeloe",
             "title": "Salatiga Tempo Doeloe",
             "category": "Budaya",
             "date": "2026-08-01",
@@ -200,7 +206,7 @@
                     "contact": "0813-2926-9069",
                     "img": [
                         {
-                            "title": "sitalang-1.webp",
+                            "title": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
                             "credit": "Instagram Sitalang River Tubing"
                         },
                         {
@@ -421,9 +427,10 @@
                     ]
                 }
             }
-        ],
-        "akomodasi": [
-            {
+        ]
+    },
+    "accommodation": [
+        {
                 "id": 201,
                 "slug": "grand-wahid-hotel",
                 "name": "Grand Wahid Hotel",
@@ -445,101 +452,119 @@
                         }
                     ]
                 }
-            },
-            {
-                "id": 202,
-                "slug": "gosyen-azana",
-                "name": "Gosyen Azana Hotel",
-                "marker": "hotel",
-                "detail": {
-                    "alamat": "Salatiga Plaza",
-                    "kategori": "Hotel",
-                    "koordinat": {
-                        "lat": -7.3278,
-                        "lng": 110.5034
-                    },
-                    "jam_operasional": "24 Jam",
-                    "harga": "Mulai Rp 500.000",
-                    "deskripsi": "Hotel modern di pusat kota Salatiga.",
-                    "credit": "Disbudpar",
-                    "img": [
-                        {
-                            "title": "gosyen-1.webp"
-                        }
-                    ]
-                }
-            },
-            {
-                "id": 203,
-                "slug": "tetirah-boutique",
-                "name": "Tetirah Boutique Hotel",
-                "marker": "hotel",
-                "detail": {
-                    "alamat": "Kalicacing, Salatiga",
-                    "kategori": "Hotel",
-                    "koordinat": {
-                        "lat": -7.3215,
-                        "lng": 110.4982
-                    },
-                    "jam_operasional": "24 Jam",
-                    "harga": "Mulai Rp 450.000",
-                    "deskripsi": "Hotel dengan nuansa heritage dan taman asri.",
-                    "credit": "Disbudpar",
-                    "img": [
-                        {
-                            "title": "tetirah-1.webp"
-                        }
-                    ]
-                }
-            },
-            {
-                "id": 204,
-                "slug": "guest-house-gethsemane",
-                "name": "Guest House Gethsemane",
-                "marker": "guesthouse",
-                "detail": {
-                    "alamat": "Blotongan, Sidorejo",
-                    "kategori": "Guest House",
-                    "koordinat": {
-                        "lat": -7.3064,
-                        "lng": 110.4924
-                    },
-                    "jam_operasional": "24 Jam",
-                    "harga": "Mulai Rp 250.000",
-                    "deskripsi": "Guest house nyaman untuk keluarga dan perjalanan bisnis.",
-                    "credit": "tourism.salatiga.go.id",
-                    "img": [
-                        {
-                            "title": "gethsemane-1.webp"
-                        }
-                    ]
-                }
-            },
-            {
-                "id": 205,
-                "slug": "diponegoro-house",
-                "name": "Diponegoro House",
-                "marker": "hotel",
-                "detail": {
-                    "alamat": "Jl. Diponegoro, Salatiga",
-                    "kategori": "Boutique Hotel",
-                    "koordinat": {
-                        "lat": -7.3291,
-                        "lng": 110.5048
-                    },
-                    "jam_operasional": "24 Jam",
-                    "harga": "Mulai Rp 350.000",
-                    "deskripsi": "Penginapan heritage dengan nuansa kolonial.",
-                    "credit": "tourism.salatiga.go.id",
-                    "img": [
-                        {
-                            "title": "diponegoro-house-1.webp"
-                        }
-                    ]
-                }
+        },
+        {
+            "id": 202,
+            "slug": "gosyen-azana",
+            "name": "Gosyen Azana Hotel",
+            "marker": "hotel",
+            "detail": {
+                "alamat": "Salatiga Plaza",
+                "kategori": "Hotel",
+                "koordinat": {
+                    "lat": -7.3278,
+                    "lng": 110.5034
+                },
+                "jam_operasional": "24 Jam",
+                "harga": "Mulai Rp 500.000",
+                "deskripsi": "Hotel modern di pusat kota Salatiga.",
+                "credit": "Disbudpar",
+                "img": [
+                    {
+                        "title": "gosyen-1.webp"
+                    }
+                ]
             }
-        ]
-    },
+        },
+        {
+            "id": 203,
+            "slug": "tetirah-boutique",
+            "name": "Tetirah Boutique Hotel",
+            "marker": "hotel",
+            "detail": {
+                "alamat": "Kalicacing, Salatiga",
+                "kategori": "Hotel",
+                "koordinat": {
+                    "lat": -7.3215,
+                    "lng": 110.4982
+                },
+                "jam_operasional": "24 Jam",
+                "harga": "Mulai Rp 450.000",
+                "deskripsi": "Hotel dengan nuansa heritage dan taman asri.",
+                "credit": "Disbudpar",
+                "img": [
+                    {
+                        "title": "tetirah-1.webp"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 204,
+            "slug": "guest-house-gethsemane",
+            "name": "Guest House Gethsemane",
+            "marker": "guesthouse",
+            "detail": {
+                "alamat": "Blotongan, Sidorejo",
+                "kategori": "Guest House",
+                "koordinat": {
+                    "lat": -7.3064,
+                    "lng": 110.4924
+                },
+                "jam_operasional": "24 Jam",
+                "harga": "Mulai Rp 250.000",
+                "deskripsi": "Guest house nyaman untuk keluarga dan perjalanan bisnis.",
+                "credit": "tourism.salatiga.go.id",
+                "img": [
+                    {
+                        "title": "gethsemane-1.webp"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 205,
+            "slug": "diponegoro-house",
+            "name": "Diponegoro House",
+            "marker": "hotel",
+            "detail": {
+                "alamat": "Jl. Diponegoro, Salatiga",
+                "kategori": "Boutique Hotel",
+                "koordinat": {
+                    "lat": -7.3291,
+                    "lng": 110.5048
+                },
+                "jam_operasional": "24 Jam",
+                "harga": "Mulai Rp 350.000",
+                "deskripsi": "Penginapan heritage dengan nuansa kolonial.",
+                "credit": "tourism.salatiga.go.id",
+                "img": [
+                    {
+                        "title": "diponegoro-house-1.webp"
+                    }
+                ]
+            }
+        }
+    ],
+    "itenary": [
+        {
+            "id": 1,
+            "slug": "8-jam-di-salatiga",
+            "name": "8 Jam di Salatiga",
+            "detail": {
+                "lokasi": [
+                    {
+                        "nama": "Sarapan di Soto Esto",
+                        "detail": ""
+                    },
+                    {
+                        "nama": "Main Air di River Tubing Sitalang",
+                        "detail": ""
+                    }
+                ]
+            }
+        }
+    ],
     "history": [
         {
             "id": 1,
@@ -621,38 +646,94 @@
     ],
     "policy": [
         {
-            "title": "",
-            "desc": ""
+            "title": "Kebijakan Privasi",
+            "desc": "Explore Salatiga menghargai privasi setiap pengunjung. Halaman ini menjelaskan bagaimana informasi dikumpulkan, digunakan, dan dilindungi saat Anda menggunakan website ini."
         },
         {
-            "title": "",
-            "desc": ""
+            "title": "Informasi yang Kami Kumpulkan",
+            "desc": "<li>Nama dan alamat email melalui formulir kontak.</li><li>Data penggunaan website melalui analytics.</li><li>Informasi perangkat dan browser.</li><li>Data lokasi umum untuk kebutuhan peta dan navigasi.</li>"
         },
         {
-            "title": "",
-            "desc": ""
+            "title": "Penggunaan Informasi",
+            "desc": "Informasi digunakan untuk meningkatkan layanan, mengembangkan konten wisata, memperbaiki performa website, dan menjawab pertanyaan pengguna."
         },
         {
-            "title": "",
-            "desc": ""
+            "title": "Cookies",
+            "desc": "Website ini dapat menggunakan cookies untuk meningkatkan pengalaman pengguna dan menganalisis penggunaan website."
         },
         {
-            "title": "",
-            "desc": ""
+            "title": "Layanan Pihak Ketiga",
+            "desc": "<p> dapat menggunakan layanan pihak ketiga seperti: </p><li>Google Analytics</li><li>OpenStreetMap</li><li>Leaflet.js</li> <li>Youtube Embed</li> <li>Instagram Feed</li>"
         },
         {
-            "title": "",
-            "desc": ""
+            "title": "Keamanan Data",
+            "desc": "Kami berupaya melindungi data pengguna melalui praktik keamanan yang wajar dan sesuai standar industri."
         },
         {
-            "title": "",
-            "desc": ""
+            "title": "Tautan Eksternal",
+            "desc": "Website ini dapat memuat tautan ke situs eksternal. Kami tidak bertanggung jawab atas kebijakan privasi situs tersebut."
+        },
+        {
+            "title": "Perubahan Kebijakan",
+            "desc": "Kebijakan privasi dapat diperbarui sewaktu-waktu. <br>Perubahan akan ditampilkan pada halaman ini."
+        },
+        {
+            "title": "Kontak",
+            "desc": "Jika memiliki pertanyaan mengenai kebijakan privasi, silakan hubungi kami melalui halaman kontak."
         }
     ],
     "credit": [
         {
-            "title": "",
+            "title": "Tentang Proyek",
+            "desc": "Platform digital ini dirancang untuk menjadi gerbang informasi pariwisata Kota Salatiga yang menghadirkan pengalaman eksplorasi destinasi secara modern melalui teknologi web interaktif, peta digital, dan konten visual yang menarik."
+        },
+        {
+            "title": "Tim Pengembang",
             "desc": ""
+        },
+        {
+            "title": "Sumber Data & Informasi",
+            "desc": ""
+        },
+        {
+            "title": "Pemerintah Kota Salatiga",
+            "desc": ""
+        },
+        {
+            "title": "Teknologi yang Digunakan",
+            "desc": ""
+        }
+    ],
+    "trivia": [
+        {
+            "id": 1,
+            "title": "Kota Tertua di Jawa Tengah",
+            "desc": "Hari Jadi Salatiga ditetapkan berdasarkan Prasasti Plumpungan yang bertanggal 24 Juli 750 Masehi, menjadikannya salah satu kota tertua di Indonesia."
+        },
+        {
+            "id": 2,
+            "title": "Dijuluki Kota Tertoleran",
+            "desc": "Salatiga beberapa kali dinobatkan sebagai salah satu kota paling toleran di Indonesia karena keberagaman masyarakat dan kerukunan antarumat beragama."
+        },
+        {
+            "id": 3,
+            "title": "Dikelilingi Pegunungan",
+            "desc": "Salatiga berada di antara Gunung Merbabu, Telomoyo, dan Ungaran yang membuat udaranya sejuk sepanjang tahun."
+        },
+        {
+            "id": 4,
+            "title": "Kota Pendidikan",
+            "desc": "Kehadiran berbagai perguruan tinggi dan sekolah menjadikan Salatiga sebagai salah satu pusat pendidikan penting di Jawa Tengah."
+        },
+        {
+            "id": 5,
+            "title": "Surga Pecinta Olahraga",
+            "desc": "Kontur kota yang berbukit dan udara yang segar membuat Salatiga menjadi destinasi favorit untuk bersepeda, lari, dan olahraga luar ruang."
+        },
+        {
+            "id": 6,
+            "title": "Dekat dengan Jalur Kopi Jawa",
+            "desc": "Lokasinya yang strategis di kawasan pegunungan membuat Salatiga memiliki banyak kedai kopi dan akses mudah menuju perkebunan kopi di sekitarnya."
         }
     ]
 }

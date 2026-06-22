@@ -1,13 +1,12 @@
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@headlessui/react'
 import data from '../../../public/data.json'
-import Card from './Card'
+import CardList from './CardList'
 
-const { wisata, kuliner, akomodasi } = data.attraction
+const { wisata, kuliner } = data.attraction
 
 const tabs = [
-    { label: 'Wisata',      items: wisata },
-    { label: 'Kuliner',     items: kuliner },
-    { label: 'Akomodasi',   items: akomodasi },
+    { label: 'Wisata',    items: wisata },
+    { label: 'Kuliner',   items: kuliner },
 ]
 
 export default function Tabs() {
@@ -31,11 +30,7 @@ export default function Tabs() {
                 <TabPanels>
                     {tabs.map(({ label, items }) => (
                         <TabPanel key={label}>
-                            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                                {items.map((item) => (
-                                    <Card key={item.id} item={item} />
-                                ))}
-                            </div>
+                            <CardList items={items} variant="attraction" />
                         </TabPanel>
                     ))}
                 </TabPanels>

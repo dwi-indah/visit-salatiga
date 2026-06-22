@@ -4,6 +4,7 @@ import { useGSAP } from "@gsap/react"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 import { SplitText } from "gsap/SplitText"
 import { Link } from "react-router"
+import { ArrowUpRightIcon } from "@heroicons/react/24/outline"
 
 gsap.registerPlugin(useGSAP, ScrollTrigger, SplitText);
 
@@ -88,7 +89,11 @@ export default function Intro() {
             </div>
             <div className="relative pb-3 text-center lg:max-w-3xl m-auto">
                 <p className="text-gray-600 leading-8 text-lg">Salatiga bukan sekadar kota—ia adalah cerita yang hidup dari masa ke masa. Dari jejak Prasasti Plumpungan hingga bangunan kolonial yang masih berdiri anggun, setiap sudut kota menyimpan kisah tentang perjalanan panjang budaya dan peradaban.</p>
-                <Link to="/history" className="inline-block py-2 px-4 bg-primary text-white rounded-lg hover:bg-primary-light hover:text-primary mt-4 text-lg leading-8 lg:mt-8 lg:px-6 lg:py-3 lg:text-2xl transition duration-300">Sejarah Salatiga
+                <Link to="/about" className="inline-flex gap-2 items-center py-2 px-4 bg-primary text-white rounded-lg hover:bg-primary-light hover:text-primary mt-4 text-lg leading-8 lg:mt-8 lg:px-6 lg:py-3 lg:text-2xl transition duration-300">
+                    Sejarah Salatiga
+                    <span className="transition duration-300 group-hover:rotate-45">
+                        <ArrowUpRightIcon aria-hidden="true" className="block size-6" />
+                    </span>
                 </Link>
             </div>
         </section>
