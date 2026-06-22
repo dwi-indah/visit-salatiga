@@ -8,8 +8,8 @@
         },
         {
             "id": 2,
-            "name": "Sejarah",
-            "href": "/history"
+            "name": "Tentang",
+            "href": "/about"
         },
         {
             "id": 3,
@@ -40,13 +40,13 @@
         },
         {
             "id": 2,
-            "name": "Dinas Pariwisata Kota Salatiga",
-            "href": "#"
+            "name": "Dinas Kebudayaan dan Pariwisata Kota Salatiga",
+            "href": "https://disbudpar.salatiga.go.id/"
         },
         {
             "id": 3,
-            "name": "Pemerintah Kota Salatiga",
-            "href": "#"
+            "name": "Tourism Salatiga",
+            "href": "https://tourism.salatiga.go.id"
         }
     ],
     "footerLink": [
@@ -64,6 +64,56 @@
             "id": 3,
             "name": "Term of Use",
             "href": "/term"
+        }
+    ],
+    "titleHeading": [
+        {
+            "id": 1,
+            "title": "Informasi dan Sejarah",
+            "tag": "fakta",
+            "note": ""
+        },
+        {
+            "id": 2,
+            "title": "Destinasi Wisata",
+            "tag": "list",
+            "note": ""
+        },
+        {
+            "id": 3,
+            "title": "Acara & Festival",
+            "tag": "list",
+            "note": ""
+        },
+        {
+            "id": 4,
+            "title": "Daftar Akomodasi",
+            "tag": "list",
+            "note": ""
+        },
+        {
+            "id": 5,
+            "title": "Rencana Perjalanan",
+            "tag": "Rekomendasi",
+            "note": ""
+        },
+        {
+            "id": 6,
+            "title": "Privacy Policy",
+            "tag": "Legal",
+            "note": "Terakhir diupdate : Juni 2026"
+        },
+        {
+            "id": 7,
+            "title": "Term",
+            "tag": "Legal",
+            "note": "Terakhir diupdate : Juni 2026"
+        },
+        {
+            "id": 8,
+            "title": "Credit",
+            "tag": "Legal",
+            "note": "Terakhir diupdate : Juni 2026"
         }
     ],
     "districts": [
@@ -133,118 +183,123 @@
         "wisata": [
             {
                 "id": 1,
-                "slug": "sitalang-salatiga",
-                "name": "Sitalang Salatiga",
+                "slug": "sitalang-river-tubing",
+                "name": "Sitalang River Tubing",
                 "marker": "wisata",
                 "detail": {
-                    "alamat": "Jl. Sawah, Kauman Kidul, Sidorejo, Salatiga",
+                    "alamat": "Jl. Sitalang, Kauman Kidul, Kecamatan Sidorejo, Kota Salatiga, Jawa Tengah.",
                     "kategori": "Wisata Alam",
                     "koordinat": {
                         "lat": -7.3228,
                         "lng": 110.4908
                     },
-                    "jam_operasional": "07:00 - 18:00",
-                    "harga": "Rp 5.000",
-                    "deskripsi": "Agrowisata dengan jogging track persawahan, river tubing, pasar tiban UMKM dan panorama pegunungan.",
-                    "credit": "tourism.salatiga.go.id",
+                    "jam_operasional": "09:00 - 15:00",
+                    "harga": "Berdasarkan Paket yang dipilih",
+                    "deskripsi": "satu-satunya wahana arung sungai alam menggunakan ban karet di Kota Salatiga, Jawa Tengah. Destinasi ini dikelola langsung oleh Kelompok Sadar Wisata (Pokdarwis) Sitalang di kawasan Agrowisata Kauman Kidul. Wisatawan akan diajak melintasi aliran Sungai Sucen dan jalur irigasi alami yang asri sepanjang kurang lebih 2 kilometer dengan panorama sawah dan lereng pedesaan yang menawan",
+                    "credit": "Instagram Sitalang River Tubing",
+                    "contact": "0813-2926-9069",
                     "img": [
                         {
-                            "title": "sitalang-1.webp"
+                            "title": "sitalang-1.webp",
+                            "credit": "Instagram Sitalang River Tubing"
                         },
                         {
-                            "title": "sitalang-2.webp"
+                            "title": "sitalang-2.webp",
+                            "credit": "Instagram Sitalang River Tubing"
                         }
                     ]
                 }
             },
             {
                 "id": 2,
-                "slug": "rawa-pening",
-                "name": "Rawa Pening",
+                "slug": "tapak-sari",
+                "name": "Tapak Sari",
                 "marker": "wisata",
                 "detail": {
-                    "alamat": "Banyubiru, Kabupaten Semarang",
+                    "alamat": " Jl. Kyai KH. Abdul Wahid, RT.05/RW.01, Cabean, Kelurahan Mangunsari, Kecamatan Sidomukti, Kota Salatiga, Jawa Tengah 50721.",
                     "kategori": "Wisata Alam",
                     "koordinat": {
                         "lat": -7.2668,
                         "lng": 110.4314
                     },
-                    "jam_operasional": "24 Jam",
-                    "harga": "Rp 10.000",
-                    "deskripsi": "Danau alami terbesar di kawasan Salatiga-Ambarawa dengan wisata perahu dan kuliner terapung.",
-                    "credit": "Disbudpar",
+                    "jam_operasional": "05:00 - 18:00 WIB",
+                    "harga": "Gratis",
+                    "deskripsi": "Wisata Tapak Hapsari adalah destinasi eduwisata alam berbasis persawahan produktif yang terletak di Cabean, Kelurahan Mangunsari, Kecamatan Sidomukti, Kota Salatiga, Jawa Tengah. Tempat wisata ini resmi dibuka sejak tahun 2022 dan dirancang sebagai kawasan liburan yang menenangkan (healing) sekaligus edukatif tanpa mengubah fungsi utama lahan sawah. Nama \"Tapak Hapsari\" memiliki arti filosofis \"Harapan Mangunsari\", yang mencerminkan asa warga setempat agar wilayah ini menjadi destinasi wisata kebanggaan dan penggerak ekonomi lokal.",
+                    "credit": "https://tourism.salatiga.go.id/artikel/wisata/alam/tapak-hapsari",
+                    "contact": "",
                     "img": [
                         {
-                            "title": "rawa-pening-1.webp"
+                            "title": "tapak-sari.png",
+                            "credit": "Disbudpar"
                         }
                     ]
                 }
             },
             {
                 "id": 3,
-                "slug": "bukit-cinta",
-                "name": "Bukit Cinta",
+                "slug": "prasasti-plumpungan",
+                "name": "Prasasti Plumpungan",
                 "marker": "wisata",
                 "detail": {
-                    "alamat": "Kebondowo, Banyubiru",
-                    "kategori": "Wisata Alam",
+                    "alamat": "Jl. Plumpungan, RT.002/RW.001, Kauman Kidul, Kecamatan Sidorejo, Kota Salatiga, Jawa Tengah 50712",
+                    "kategori": "Wisata Sejarah",
                     "koordinat": {
-                        "lat": -7.2672,
-                        "lng": 110.4275
+                        "lat": -7.3284,
+                        "lng": 110.5047
                     },
-                    "jam_operasional": "08:00 - 17:00",
-                    "harga": "Rp 15.000",
-                    "deskripsi": "Spot panorama terbaik untuk menikmati pemandangan Rawa Pening.",
+                    "jam_operasional": "Senin – Jumat pukul 08.00 - 15.30 WIB (Sabtu & Minggu tutup, kecuali dengan reservasi rombongan)",
+                    "harga": "Gratis",
+                    "deskripsi": "Situs bersejarah yang menjadi bukti asal-usul nama Salatiga. Situs cagar budaya ini berlokasi di dalam kompleks Museum Salatiga. Berdasarkan angka tahun yang tertera, prasasti ini menandai bahwa Salatiga sudah eksis sejak 24 Juli 750 Masehi, membuatnya berusia jauh lebih tua daripada Candi Borobudur maupun Prambanan.",
                     "credit": "Disbudpar",
                     "img": [
                         {
-                            "title": "bukit-cinta-1.webp"
+                            "title": "plumpungan-1.webp"
                         }
                     ]
                 }
             },
             {
                 "id": 4,
-                "slug": "kopeng",
-                "name": "Wisata Kopeng",
+                "slug": "umbul-senjoyo",
+                "name": "Umbul Senjoyo",
                 "marker": "wisata",
                 "detail": {
-                    "alamat": "Kopeng, Getasan",
+                    "alamat": "Desa Tegalwaton, Kecamatan Tengaran, Kabupaten Semarang, Jawa Tengah",
                     "kategori": "Wisata Alam",
                     "koordinat": {
-                        "lat": -7.4038,
-                        "lng": 110.4387
+                        "lat": 0,
+                        "lng": 0
                     },
                     "jam_operasional": "24 Jam",
                     "harga": "Gratis",
-                    "deskripsi": "Kawasan wisata pegunungan di kaki Merbabu dengan udara sejuk dan camping ground.",
-                    "credit": "Disbudpar",
+                    "deskripsi": "destinasi wisata alam favorit berupa sumber mata air alami yang sangat jernih, sejuk, dan asri. Meskipun sering disebut sebagai wisata Salatiga, secara administratif umbul ini berlokasi di Desa Tegalwaton, Kecamatan Tengaran, Kabupaten Semarang, Jawa Tengah. Jaraknya sangat dekat, hanya sekitar 7 km atau 15 menit berkendara dari pusat Kota Salatiga.",
+                    "credit": "https://www.tegalwaton.com/wisata-mata-air-senjoyo/",
                     "img": [
                         {
-                            "title": "kopeng-1.webp"
+                            "title": "umbul-senjoyo-1.webp"
                         }
                     ]
                 }
             },
             {
                 "id": 5,
-                "slug": "prasasti-plumpungan",
-                "name": "Prasasti Plumpungan",
+                "slug": "pacuan-kuda",
+                "name": "Pacuan Kuda",
                 "marker": "wisata",
                 "detail": {
-                    "alamat": "Plumpungan, Sidorejo",
-                    "kategori": "Wisata Budaya",
+                    "alamat": "Jl. Letjen Soemitro, Boto, Tegalwaton, Kec. Tengaran, Kabupaten Semarang",
+                    "kategori": "Wisata Aktivitas",
                     "koordinat": {
-                        "lat": -7.3284,
-                        "lng": 110.5047
+                        "lat": 0,
+                        "lng": 0
                     },
-                    "jam_operasional": "08:00 - 16:00",
-                    "harga": "Gratis",
-                    "deskripsi": "Situs bersejarah yang menjadi bukti asal-usul nama Salatiga.",
-                    "credit": "Disbudpar",
+                    "jam_operasional": "06.00 - 18.00 WIB",
+                    "harga": "Sewa Kuda (Rp25.000 - Rp35.000)",
+                    "deskripsi": "destinasi wisata olahraga dan alam yang menawarkan pemandangan Gunung Merbabu, Merapi, dan Telomoyo. Tempat ini memiliki lintasan pacuan pasir berstandar nasional sepanjang 1.180 meter. Meskipun secara administratif terletak di Desa Tegalwaton, Kecamatan Tengaran, Kabupaten Semarang, lokasinya sangat dekat dan lebih populer sebagai ikon wisata di pinggiran Kota Salatiga",
+                    "credit": "https://www.tegalwaton.com/area-pacuan-kuda/",
                     "img": [
                         {
-                            "title": "plumpungan-1.webp"
+                            "title": "pacuan-kuda-1.webp"
                         }
                     ]
                 }
