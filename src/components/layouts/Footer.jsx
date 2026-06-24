@@ -23,7 +23,7 @@ export default function Footer() {
     }, [])
 
     return(
-        <footer className="bg-primary text-white pt-4 px-4">
+        <footer className="bg-primary text-white pt-4 px-4 md:pt-8 md:px-8">
             <div className="grid lg:grid-cols-10 gap-8 mb-8 text-white">
                 <div className="lg:col-span-4">
                     <a href="#" className="font-display font-bold uppercase">Salatiga</a>
@@ -58,9 +58,9 @@ export default function Footer() {
                 </div>
             </div>
             <div className="border-t border-white py-4">
-                <div className="flex flex-col md:flex-row gap-1 lg:gap-4">
+                <div className="flex flex-col gap-1 lg:gap-4">
                     <p className="text-white/70 text-sm">© 2026 All Rights Reserved.</p>
-                    <ul className="flex gap-1 text-sm text-white/70 justify-between w-full">
+                    <ul className="flex gap-1 text-sm text-white/70 justify-between md:justify-start md:gap-4 w-full">
                         {navCredit.map((item) => (
                             <li key={item.id}><Link
                                 to={item.href}

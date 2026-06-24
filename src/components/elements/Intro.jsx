@@ -3,8 +3,7 @@ import gsap from 'gsap'
 import { useGSAP } from "@gsap/react"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 import { SplitText } from "gsap/SplitText"
-import { Link } from "react-router"
-import { ArrowUpRightIcon } from "@heroicons/react/24/outline"
+import { ButtonPrimary } from "./Button"
 
 gsap.registerPlugin(useGSAP, ScrollTrigger, SplitText);
 
@@ -71,30 +70,25 @@ export default function Intro() {
                 </h2>
             </div>
             <div className="flex gap-2 lg:gap-4 items-center mx-auto mt-6 mb-12 max-w-3xl">
-                <div className="introGallery opacity-50 scale-75 w-1/6 aspect-[2/3] bg-gray-200 rounded-lg realtive overflow-hidden">
+                <div className="introGallery opacity-50 scale-75 w-1/6 f bg-gray-200 rounded-lg realtive overflow-hidden">
                     <img src="./images/intro-1.jpg" className="w-full h-full object-cover" />
                 </div>
-                <div className="introGallery opacity-50 scale-75 w-1/6 aspect-[2/3] bg-gray-200 rounded-lg realtive overflow-hidden">
+                <div className="introGallery opacity-50 scale-75 w-1/6 aspect-2/3 bg-gray-200 rounded-lg realtive overflow-hidden">
                     <img src="./images/intro-2.jpg" className="w-full h-full object-cover" />
                 </div>
-                <div className="introGallery opacity-50 scale-75 w-2/6 aspect-[2/3] bg-gray-200 rounded-lg realtive overflow-hidden">
+                <div className="introGallery opacity-50 scale-75 w-2/6 aspect-2/3 bg-gray-200 rounded-lg realtive overflow-hidden">
                     <img src="./images/intro-1.jpg" className="w-full h-full object-cover" />
                 </div>
-                <div className="introGallery opacity-50 scale-75 w-1/6 aspect-[2/3] bg-gray-200 rounded-lg realtive overflow-hidden">
+                <div className="introGallery opacity-50 scale-75 w-1/6 aspect-2/3 bg-gray-200 rounded-lg realtive overflow-hidden">
                     <img src="./images/intro-2.jpg" className="w-full h-full object-cover" />
                 </div>
-                <div className="introGallery opacity-50 scale-75 w-1/6 aspect-[2/3] bg-gray-200 rounded-lg realtive overflow-hidden">
+                <div className="introGallery opacity-50 scale-75 w-1/6 aspect-2/3 bg-gray-200 rounded-lg realtive overflow-hidden">
                     <img src="./images/intro-1.jpg" className="w-full h-full object-cover" />
                 </div>
             </div>
             <div className="relative pb-3 text-center lg:max-w-3xl m-auto">
                 <p className="text-gray-600 leading-8 text-lg">Salatiga bukan sekadar kota—ia adalah cerita yang hidup dari masa ke masa. Dari jejak Prasasti Plumpungan hingga bangunan kolonial yang masih berdiri anggun, setiap sudut kota menyimpan kisah tentang perjalanan panjang budaya dan peradaban.</p>
-                <Link to="/about" className="inline-flex gap-2 items-center py-2 px-4 bg-primary text-white rounded-lg hover:bg-primary-light hover:text-primary mt-4 text-lg leading-8 lg:mt-8 lg:px-6 lg:py-3 lg:text-2xl transition duration-300">
-                    Sejarah Salatiga
-                    <span className="transition duration-300 group-hover:rotate-45">
-                        <ArrowUpRightIcon aria-hidden="true" className="block size-6" />
-                    </span>
-                </Link>
+                <ButtonPrimary linkAddress="about" link="Sejarah Salatiga" />
             </div>
         </section>
     )

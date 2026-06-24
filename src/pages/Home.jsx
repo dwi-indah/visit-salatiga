@@ -49,7 +49,7 @@ function Home() {
                         link="Lihat Rencana Perjalanan"
                         linkAddress="itenary"
                     />
-                    <CardList items={itenary} variant="itenary" />
+                    <CardList items={itenary} variant="itenary" className='grid md:grid-cols-2 gap-4 lg:gap-6' />
                 </div>
                 <div className="mb-40">
                     <Heading

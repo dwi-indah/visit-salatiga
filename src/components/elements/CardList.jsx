@@ -42,7 +42,7 @@ export default function CardList({
     }
 
     return (
-        <div className={`grid gap-4 sm:grid-cols-2 lg:grid-cols-3 ${className}`}>
+        <div className={`${className}`}>
             {items.map((item) => (
                 <CardComponent
                     key={item.id ?? item.slug}

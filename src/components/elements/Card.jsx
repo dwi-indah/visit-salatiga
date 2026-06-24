@@ -36,9 +36,9 @@ function resolveImg(title) {
  * Thumbnail — fixed-height image with badge overlaid bottom-left.
  * Falls back to a neutral placeholder when no src is available.
  */
-function Thumbnail({ src, alt, badge }) {
+function Thumbnail({ src, alt, className }) {
     return (
-        <div className="relative h-48 w-full overflow-hidden rounded-t-xl bg-gray-100">
+        <div className={className}>
             {src ? (
                 <img
                     src={src}
@@ -55,12 +55,15 @@ function Thumbnail({ src, alt, badge }) {
                     </svg>
                 </div>
             )}
-            {badge && (
-                <span className="absolute bottom-2 left-2 rounded-lg bg-primary px-2 py-0.5 text-xs font-medium text-white capitalize shadow">
-                    {badge}
-                </span>
-            )}
         </div>
+    )
+}
+
+function Badge({badge}) {
+    return (
+        <span className="absolute top-2 right-2 rounded-lg bg-primary px-2 py-0.5 text-xs font-medium text-white uppercase shadow">
+            {badge}
+        </span>
     )
 }
 
@@ -109,39 +112,43 @@ export function AttractionCard({ item, className = '' }) {
     if (!item) return null
 
     const { slug, name, marker, detail } = item
-    const { alamat, kategori, jam_operasional, harga, deskripsi, img } = detail
+    const { img } = detail
     const thumbSrc = resolveImg(img?.[0]?.title)
 
     return (
-        <Link
-            to={`/attraction/${slug}`}
-            className={`group flex flex-col rounded-xl bg-white shadow-sm overflow-hidden transition hover:shadow-md hover:-translate-y-0.5 ${className}`}
-        >
-            <Thumbnail src={thumbSrc} alt={name} badge={marker} />
+        <div className=''>
+            <Link
+                to={`/attraction/${slug}`}
+                className={`w-full max-h-84 lg:col-span-4 aspect-square md:aspect-auto relative group flex flex-col rounded-xl bg-white shadow-sm overflow-hidden transition hover:shadow-md hover:-translate-y-0.5 ${className}`}
+            >
 
-            <div className="flex flex-col gap-2 p-4 flex-1">
-                <h3 className="text-base font-semibold text-gray-900 leading-snug group-hover:text-emerald-700 transition-colors">
-                    {name}
-                </h3>
+                <Thumbnail src={thumbSrc} alt={name} className="absolute w-full h-full" />
+                <div className='absolute inset-0 bg-linear-to-b from-gray-500 to-bg-transparent opacity-50 rounded-xl'></div>
+                <Badge badge={marker}></Badge>
+                <div className="absolute inset-0 h-full flex items-end p-2">
+                    <h3 className="text-xl text-white font-semibold leading-snug group-hover:text-emerald-700 transition-colors">
+                        {name}
+                    </h3>
 
-                <p className="text-xs text-gray-500">{kategori} &mdash; {alamat}</p>
+                    {/* <p className="text-xs text-gray-500">{kategori} &mdash; {alamat}</p>
 
-                <p className="text-sm text-gray-700 line-clamp-3">{deskripsi}</p>
+                    <p className="text-sm text-gray-700 line-clamp-3">{deskripsi}</p>
 
-                <dl className="mt-auto flex flex-wrap gap-x-4 gap-y-1 pt-2 text-xs text-gray-500">
-                    <div className="flex items-center gap-1">
-                        <dt className="sr-only">Jam operasional</dt>
-                        <ClockIcon />
-                        <dd>{jam_operasional}</dd>
-                    </div>
-                    <div className="flex items-center gap-1">
-                        <dt className="sr-only">Harga</dt>
-                        <PriceIcon />
-                        <dd>{harga}</dd>
-                    </div>
-                </dl>
-            </div>
-        </Link>
+                    <dl className="mt-auto flex flex-wrap gap-x-4 gap-y-1 pt-2 text-xs text-gray-500">
+                        <div className="flex items-center gap-1">
+                            <dt className="sr-only">Jam operasional</dt>
+                            <ClockIcon />
+                            <dd>{jam_operasional}</dd>
+                        </div>
+                        <div className="flex items-center gap-1">
+                            <dt className="sr-only">Harga</dt>
+                            <PriceIcon />
+                            <dd>{harga}</dd>
+                        </div>
+                    </dl> */}
+                </div>
+            </Link>
+        </div>
     )
 }
 
